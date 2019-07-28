@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QUIZ</title>
+
+        <!--To link css to this html page-->
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="script.js"></script>
+    
+</head>
+
+<body>
+
+    <header>
+
+        <div style="font-size: 40px;  color:rgb(247, 190, 47)" class="flex-container">Quiz
+        </div>
+        <hr>
+        
+    </header>
+
+
+    <section id="quizSection">
+
+        <div style="margin: 20px 0 20px 0; font-size: 36px">
+            <h2 style="text-align: center;">Test Your Knowledge</h2>
+        </div>
+
+        <div style="margin: 20px 0 20px 0; font-size: 20px; color: rgb(180, 25, 25)">
+            <h5 style="text-align: center;">+10 for RIGHT and -5 for WRONG</h5>
+        </div>
+
+        <div id="intro" style="background-image: url(images/india.jpg); background-size: 740px 300px; ">
+             
+            <p style="text-align: justify; font-size: 20px;">
+                
+                <h2>Who is the prime minister of India?</h2>
+
+                <p><input type="radio" value="A" name="pm" id="1"/>A. Narendra Modi</p>
+                <p><input type="radio" value="B" name="pm" id="11"/>B. Manmohan singh </p>
+                <p><input type="radio" value="C" name="pm" id="12"/>C. Ajay Devgn</p>
+                <p><input type="radio" value="D" name="pm" id="13"/>D. Rahul Gandhi</p>
+            
+            </p>
+        </div>
+
+        <div id="intro" style="background-image: url(images/taj.jpg); background-size: 740px 300px;">
+             
+            <p style="text-align: justify; font-size: 20px;">
+                
+                <h2>Where is Taj mahal located?</h2>
+
+                <p><input type="radio" value="A" name="taj" id="21"/>A. Jaipur</p>
+                <p><input type="radio" value="B" name="taj" id="2"/>B. Agra </p>
+                <p><input type="radio" value="C" name="taj" id="22"/>C. London</p>
+                <p><input type="radio" value="D" name="taj" id="23"/>D. Agartala</p>
+            
+            </p>
+        </div>
+
+        <div id="intro" style="background-image: url(images/japan.png); background-size: 740px 300px;">
+             
+            <p style="text-align: justify; font-size: 20px;">
+                
+                <h2>What is capital of Japan?</h2>
+
+                <p><input type="radio" value="A" name="japan" id="31"/>A. Kochi</p>
+                <p><input type="radio" value="B" name="japan" id="3"/>B. Tokyo </p>
+                <p><input type="radio" value="C" name="japan" id="32"/>C. Bangkok</p>
+                <p><input type="radio" value="D" name="japan" id="33"/>D. Kathmandu</p>
+            
+            </p>
+        </div>
+
+        <div id="intro" style="background-image: url(images/thar.jpg); background-size: 740px 300px;">
+             
+            <p style="text-align: justify; font-size: 20px;">
+                
+                <h2>Where is thar desert located?</h2>
+
+                <p><input type="radio" value="A" name="desert" id="41"/>A. UP</p>
+                <p><input type="radio" value="B" name="desert" id="42"/>B. MP </p>
+                <p><input type="radio" value="C" name="desert" id="4"/>C. Rajasthan</p>
+                <p><input type="radio" value="D" name="desert" id="43"/>D. Kerala</p>
+            
+            </p>
+        </div>
+
+        <div id="intro" style="background-image: url(images/population.jpg); background-size: 740px 300px;">
+             
+            <p style="text-align: justify; font-size: 20px;">
+                
+                <h2>Which is the most populous country?</h2>
+
+                <p><input type="radio" value="A" name="populous" id="51"/>A. India</p>
+                <p><input type="radio" value="B" name="populous" id="52"/>B. Pakistan </p>
+                <p><input type="radio" value="C" name="populous" id="53"/>C. Afghanistan</p>
+                <p><input type="radio" value="D" name="populous" id="5"/>D. China</p>
+
+            </p>
+        </div>
+
+        <div id="intro" style="background-image: url(images/computer.gif); background-size: 740px 300px;">
+             
+            <p style="text-align: justify; font-size: 20px;">
+                
+                <h2>What is Computer's IQ?</h2>
+
+                <p><input type="radio" value="A" name="iq" id="61"/>A. 110</p>
+                <p><input type="radio" value="B" name="iq" id="62"/>B. 100000 </p>
+                <p><input type="radio" value="C" name="iq" id="6"/>C. 0</p>
+                <p><input type="radio" value="D" name="iq" id="63"/>D. 989823.12</p>
+            
+            </p>
+        </div>
+
+                
+        <p style="text-align: center;"><input type="submit" value="SUBMIT" name="submit" onclick="calculateIQ()"/></p>
+
+    </section>
+
+    <div id="resultDiv" style="display: none; text-align: center" >
+             
+            <p style="text-align: justify; font-size: 20px;">
+                
+                <h1 style="margin-top: 42px;">Your Score is</h1><br></br>
+                <h3 id="result"></h3>
+              
+            
+            </p>
+        </div>
+        <br><br>
+        <p style="text-align: center; display: none;" id="mainPage"><a href="quiz.html">Want to Play Again?</a></p>
+
+        <footer id="footer">
+    
+                <div class="flex-container" style=" bottom: 0; width: 100%">
+                        <p>Visit me @ www.prakashsolutions.com</p>
+                </div>
+    
+        </footer>
+
+</body>
+
+</html>
